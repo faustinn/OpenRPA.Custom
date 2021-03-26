@@ -66,6 +66,7 @@ namespace OpenRPA.Custom.Activities
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                throw;
             }
         }
     }
